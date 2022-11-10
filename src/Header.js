@@ -45,7 +45,7 @@ const handleAuthentication = ()=>{
                 className='header_option'>
                     <span
                         className='header_optionLineOne'>
-                        Hello Guest
+                        Hello {!user ? 'Guest' : user.email}
                     </span> 
                     <span
                         className='header_optionLineTwo'>

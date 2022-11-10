@@ -10,7 +10,7 @@ function CheckoutProducts({ id, image, title, price, rating }) {
             type: 'REMOVE_FROM_BASKET',
             id:id,
         })
-        // remove item from basket 
+        //remove item from basket 
 
     }
     return (
